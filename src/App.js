@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Home from './Home'
+import Register from './Register'
+import Authorize from './Authorize'
+import Template from './Template'
+import Catalog from './Catalog'
+import React from 'react'
+import { Redirect, Router, Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => (
+    <main>
+                <Route exact path="/:path" component={Template}/>
+                <Route exact path="/auth" component={Authorize}/>
+                <Route exact path="/register" component={Register}/>
+                <Route exact path="/catalog" component={Catalog}/>
+                <Route exact path="/home" component={Home}/>
+                <Route exact path="/home" render={function(){
+                    const response = fetch('/home')
+                }}/>
+    </main>
+)
+
 
 export default App;

@@ -1,33 +1,79 @@
-.App {
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+*{
+  margin:0;
+  padding:0;
+}
+
+.resp-tab {
+  width: 100%;
+  max-width: 100%;
+}
+.resp-tab th, .resp-tab td {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid #ff0000;
+  vertical-align: top;
+}
+.resp-tab th {
+  color: #FFF;
+  background: #FA8072;
+  font-weight: bold;
+  border: 1px solid #ff0000;
+  text-transform: uppercase;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Bangers', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
+  width: 100%;
+  background: #FA8072;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+  padding-top: 30px;
+  letter-spacing: 10px;
+  font-size: 40px
 }
 
+.header__logo{
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 56px;
+  margin-left: 10%;
+}
+
+.welcome{
+  text-align: center;
+  background: #FA8072;
+  padding: 260px 0 330px 0;
+}
+
+.welcome h1{
+  color: #FFE4E1;
+  font-size: 100px;
+  letter-spacing: 20px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font: 24px Georgia, serif;
+  text-align: justify;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +81,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+#ready{
+  background-color: #FA8072;
+  padding: 30px 50px;
+  font-size: 30px;
+  border: 2px solid #000000;
+  margin-top: 50px;
 }
