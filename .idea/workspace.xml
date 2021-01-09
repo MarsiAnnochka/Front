@@ -2,24 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72e93b1-6115-41cf-87d6-e82f6a0cf15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Authorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Catalog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Catalog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.index-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1d9c3465bc6994c029e7a9f939aeb786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/46e8bb837b686bd404378e7e01c293c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/49ca6f299ffc252df26eb2580fd7b942.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4a7f053c04596d112f71e326d1484043.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/745c3149c57da289eccdf29480ac813b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/92c6a31bd4ecb42bf3a3abd018afc6bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/97d63e35e3d1d4b6a65b7e2eb7e8386b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dbdd3f176c6306e4903ec9b1fdc083ad.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authorize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authorize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,6 +82,8 @@
       <workItem from="1608210644084" duration="242000" />
       <workItem from="1608308162710" duration="19061000" />
       <workItem from="1608390276181" duration="26677000" />
+      <workItem from="1608631026656" duration="30838000" />
+      <workItem from="1608796689165" duration="39532000" />
     </task>
     <servers />
   </component>
@@ -93,9 +107,9 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="366" y="77" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1368.873@72.27.1368.873" timestamp="1608032975546" />
-    <state x="419" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1608322095578">
+    <state x="419" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1608721907739">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="419" y="214" width="672" height="678" key="search.everywhere.popup/72.27.1368.873@72.27.1368.873" timestamp="1608322095578" />
+    <state x="419" y="214" width="672" height="678" key="search.everywhere.popup/72.27.1368.873@72.27.1368.873" timestamp="1608721907739" />
   </component>
 </project>

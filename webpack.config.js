@@ -1,22 +1,22 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
+    mode: "development",
     entry: "./src/index.js",
     output: {
-        path: path.join(__dirname, "/dist"),
-        filename: "index-bundle.js"
+        path: path.join(__dirname, "/public"),
+        filename: "bundle.js"
     },
     devServer: {
         port: 3000,
+        contentBase: path.join(__dirname, "/public"),
+        open: true,
+        historyApiFallback: true,
         proxy:{
             '/api/':{
                 target:{
                     host: '127.0.0.1',
                     port: 8080,
-                    protocol: 'http',
-                    headers: {
-                        "Connection": "keep-alive",
-                    },
+                    protocol: 'http'
                 }
             }
         }
@@ -38,10 +38,8 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: "./src/index.html"
-        })
-    ],
+    resolve: {
+        extensions: [',', '.js']
+    }
 
 };
